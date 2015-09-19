@@ -1,0 +1,14 @@
+D:\SDMX_RI\SDMXDataloader-20012015\src\bin\Debug\ISTAT.EXPORT.dll
+D:\SDMX_RI\SDMXDataloader-20012015\src\bin\Debug\ISTAT.EXPORT.pdb
+D:\SDMX_RI\SDMXDataloader-20012015\src\ISTAT.EXPORT\obj\Debug\ISTAT.EXPORT.dll
+D:\SDMX_RI\SDMXDataloader-20012015\src\ISTAT.EXPORT\obj\Debug\ISTAT.EXPORT.pdb
+D:\SDMX_RI\SDMXDataloader-20012015\src\ISTAT.EXPORT\obj\Debug\ISTAT.EXPORT.csprojResolveAssemblyReference.cache
+D:\ISTAT\Source\SDMXDataloader\src\bin\Debug\ISTAT.EXPORT.dll
+D:\ISTAT\Source\SDMXDataloader\src\bin\Debug\ISTAT.EXPORT.pdb
+D:\ISTAT\Source\SDMXDataloader\src\ISTAT.EXPORT\obj\Debug\ISTAT.EXPORT.dll
+D:\ISTAT\Source\SDMXDataloader\src\ISTAT.EXPORT\obj\Debug\ISTAT.EXPORT.pdb
+E:\ISTAT2\Source\SDMXDataloader\src\bin\Debug\ISTAT.EXPORT.dll
+E:\ISTAT2\Source\SDMXDataloader\src\bin\Debug\ISTAT.EXPORT.pdb
+E:\ISTAT2\Source\SDMXDataloader\src\ISTAT.EXPORT\obj\Debug\ISTAT.EXPORT.csprojResolveAssemblyReference.cache
+E:\ISTAT2\Source\SDMXDataloader\src\ISTAT.EXPORT\obj\Debug\ISTAT.EXPORT.dll
+E:\ISTAT2\Source\SDMXDataloader\src\ISTAT.EXPORT\obj\Debug\ISTAT.EXPORT.pdb

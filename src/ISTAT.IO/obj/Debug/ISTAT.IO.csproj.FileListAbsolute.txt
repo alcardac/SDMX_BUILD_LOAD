@@ -1,0 +1,12 @@
+D:\SDMX_RI\SDMXDataloader-20012015\src\bin\Debug\ISTAT.IO.dll
+D:\SDMX_RI\SDMXDataloader-20012015\src\bin\Debug\ISTAT.IO.pdb
+D:\SDMX_RI\SDMXDataloader-20012015\src\ISTAT.IO\obj\Debug\ISTAT.IO.dll
+D:\SDMX_RI\SDMXDataloader-20012015\src\ISTAT.IO\obj\Debug\ISTAT.IO.pdb
+D:\ISTAT\Source\SDMXDataloader\src\bin\Debug\ISTAT.IO.dll
+D:\ISTAT\Source\SDMXDataloader\src\bin\Debug\ISTAT.IO.pdb
+D:\ISTAT\Source\SDMXDataloader\src\ISTAT.IO\obj\Debug\ISTAT.IO.dll
+D:\ISTAT\Source\SDMXDataloader\src\ISTAT.IO\obj\Debug\ISTAT.IO.pdb
+E:\ISTAT2\Source\SDMXDataloader\src\bin\Debug\ISTAT.IO.dll
+E:\ISTAT2\Source\SDMXDataloader\src\bin\Debug\ISTAT.IO.pdb
+E:\ISTAT2\Source\SDMXDataloader\src\ISTAT.IO\obj\Debug\ISTAT.IO.dll
+E:\ISTAT2\Source\SDMXDataloader\src\ISTAT.IO\obj\Debug\ISTAT.IO.pdb

@@ -1,0 +1,558 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="app_copy" xml:space="preserve">
+    <value>SDMX Dataloader ®2015 - ISTAT - National Institute of Statistics - Via Cesare Balbo 16 00184 - Roma tel. +39 06 46731</value>
+  </data>
+  <data name="app_title" xml:space="preserve">
+    <value>SDMX Dataloader</value>
+  </data>
+  <data name="lbl_concept" xml:space="preserve">
+    <value>Concept</value>
+  </data>
+  <data name="lbl_concept_dettail" xml:space="preserve">
+    <value>Concept dettail</value>
+  </data>
+  <data name="lbl_confirm" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="lbl_create_mapping" xml:space="preserve">
+    <value>Create mapping</value>
+  </data>
+  <data name="lbl_dim_max" xml:space="preserve">
+    <value>Warning! Max selectable dimensions:</value>
+  </data>
+  <data name="lbl_dsd_avaible" xml:space="preserve">
+    <value>DSD definition avaible</value>
+  </data>
+  <data name="lbl_ds_avaible" xml:space="preserve">
+    <value>Datacube avaible</value>
+  </data>
+  <data name="lbl_ds_code" xml:space="preserve">
+    <value>Datacube unique code</value>
+  </data>
+  <data name="lbl_ds_create" xml:space="preserve">
+    <value>Create Datacube</value>
+  </data>
+  <data name="lbl_ds_name" xml:space="preserve">
+    <value>Datacube display names</value>
+  </data>
+  <data name="lbl_ds_new" xml:space="preserve">
+    <value>Create new Datacube</value>
+  </data>
+  <data name="lbl_edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="lbl_email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="lbl_id" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="lbl_login" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="lbl_name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="lbl_page_profile" xml:space="preserve">
+    <value>Profile</value>
+  </data>
+  <data name="lbl_password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="lbl_role" xml:space="preserve">
+    <value>Role</value>
+  </data>
+  <data name="lbl_select_ds" xml:space="preserve">
+    <value>Select Datacube</value>
+  </data>
+  <data name="lbl_select_dsd" xml:space="preserve">
+    <value>Select DSD</value>
+  </data>
+  <data name="lbl_select_mapping" xml:space="preserve">
+    <value>Select mapping</value>
+  </data>
+  <data name="lbl_surname" xml:space="preserve">
+    <value>Surname</value>
+  </data>
+  <data name="lbl_upload_file_csv" xml:space="preserve">
+    <value>Select file CSV</value>
+  </data>
+  <data name="lbl_username" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="lbl_widget_action" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="lbl_widget_profile" xml:space="preserve">
+    <value>Profile</value>
+  </data>
+  <data name="msg_dim_curr_sel" xml:space="preserve">
+    <value>Dimensions selected</value>
+  </data>
+  <data name="msg_needlogin" xml:space="preserve">
+    <value>For use the function of site, please </value>
+  </data>
+  <data name="msg_retrivepsw" xml:space="preserve">
+    <value>Password lost?</value>
+  </data>
+  <data name="lbl_ds_info" xml:space="preserve">
+    <value>Datacube info</value>
+  </data>
+  <data name="lbl_loading_wait" xml:space="preserve">
+    <value>Completion of operation.</value>
+  </data>
+  <data name="lbl_next_step" xml:space="preserve">
+    <value>Continue</value>
+  </data>
+  <data name="lbl_prev_step" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="msg_loading_wait" xml:space="preserve">
+    <value>Please wait... Wait until the operation could take several minutes. Do not close your browser or turn off your computer.</value>
+  </data>
+  <data name="lbl_content" xml:space="preserve">
+    <value>File content</value>
+  </data>
+  <data name="lbl_filename" xml:space="preserve">
+    <value>Filename</value>
+  </data>
+  <data name="lbl_filesize" xml:space="preserve">
+    <value>Filesize</value>
+  </data>
+  <data name="lbl_mapping_avaible" xml:space="preserve">
+    <value>Avvaible mapping</value>
+  </data>
+  <data name="lbl_mapping_create" xml:space="preserve">
+    <value>Create mapping</value>
+  </data>
+  <data name="lbl_mapping_new" xml:space="preserve">
+    <value>Create new mapping</value>
+  </data>
+  <data name="lbl_ds_delete" xml:space="preserve">
+    <value>Delete Datacube</value>
+  </data>
+  <data name="lbl_mapping_delete" xml:space="preserve">
+    <value>Delete mapping</value>
+  </data>
+  <data name="lbl_install" xml:space="preserve">
+    <value>Database Installation</value>
+  </data>
+  <data name="lbl_retrive" xml:space="preserve">
+    <value>Retrive profile</value>
+  </data>
+  <data name="lbl_preview" xml:space="preserve">
+    <value>Preview</value>
+  </data>
+  <data name="lbl_uploadCSVChoise" xml:space="preserve">
+    <value>Select the .csv file for get header columns used in the mappingset</value>
+  </data>
+  <data name="lbl_uploadCSVSeparator" xml:space="preserve">
+    <value>Specify character used to separate fields in the file</value>
+  </data>
+  <data name="lbl_importSDMXData" xml:space="preserve">
+    <value>Import SDMX Data</value>
+  </data>
+  <data name="lbl_importSDMXSchema" xml:space="preserve">
+    <value>Import SDMX Structure</value>
+  </data>
+  <data name="lbl_connection_status" xml:space="preserve">
+    <value>Connection Status</value>
+  </data>
+  <data name="lbl_reload" xml:space="preserve">
+    <value>Reload</value>
+  </data>
+  <data name="lbl_headers" xml:space="preserve">
+    <value>Columns of csv data</value>
+  </data>
+  <data name="lbl_opt_import_ignore" xml:space="preserve">
+    <value>Ignore and not insert row with some key</value>
+  </data>
+  <data name="lbl_opt_import_override" xml:space="preserve">
+    <value>Override record with some key</value>
+  </data>
+  <data name="lbl_add_file" xml:space="preserve">
+    <value>Add File</value>
+  </data>
+  <data name="lbl_upload" xml:space="preserve">
+    <value>Upload</value>
+  </data>
+  <data name="lbl_upload_file_xml_schema" xml:space="preserve">
+    <value>Select files xml with SDMX Schema information</value>
+  </data>
+  <data name="lbl_welcome" xml:space="preserve">
+    <value>Welcome</value>
+  </data>
+  <data name="lbl_dsd_import" xml:space="preserve">
+    <value>Import SDMX Structure</value>
+  </data>
+  <data name="lbl_import" xml:space="preserve">
+    <value>Data Import</value>
+  </data>
+  <data name="lbl_select_transcoding" xml:space="preserve">
+    <value>Select transcoding time</value>
+  </data>
+  <data name="lbl_char_change" xml:space="preserve">
+    <value>Character to be replaced</value>
+  </data>
+  <data name="lbl_format_sample" xml:space="preserve">
+    <value>Sample time in current format</value>
+  </data>
+  <data name="lbl_time_period" xml:space="preserve">
+    <value>Time period</value>
+  </data>
+  <data name="lbl_upload_file" xml:space="preserve">
+    <value>Select file to import</value>
+  </data>
+  <data name="msg_mapping_a_1" xml:space="preserve">
+    <value>Remember if you have uploaded a data file XML , mapping not is required.</value>
+  </data>
+  <data name="lbl_opt_import_modality" xml:space="preserve">
+    <value>Select import mode</value>
+  </data>
+  <data name="lbl_opt_import_send_mail" xml:space="preserve">
+    <value>Email to send report</value>
+  </data>
+  <data name="lbl_ds_category" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="lbl_first_row_column" xml:space="preserve">
+    <value>First row has name of columns</value>
+  </data>
+  <data name="lbl_report_count" xml:space="preserve">
+    <value>New record count:</value>
+  </data>
+  <data name="lbl_report_email" xml:space="preserve">
+    <value>A email has been send to address:</value>
+  </data>
+  <data name="lbl_report_error" xml:space="preserve">
+    <value>The following errors occurred during insertion:</value>
+  </data>
+  <data name="lbl_report_mode" xml:space="preserve">
+    <value>Insert mode:</value>
+  </data>
+  <data name="lbl_report_user" xml:space="preserve">
+    <value>Operation execute by:</value>
+  </data>
+  <data name="lbl_start_import" xml:space="preserve">
+    <value>Confirm and start import data</value>
+  </data>
+  <data name="lbl_report_continue" xml:space="preserve">
+    <value>Continue</value>
+  </data>
+  <data name="lbl_report_finish" xml:space="preserve">
+    <value>Finish</value>
+  </data>
+  <data name="lbl_btn_install" xml:space="preserve">
+    <value>Install</value>
+  </data>
+  <data name="lbl_dsd_delete" xml:space="preserve">
+    <value>Delete DSD</value>
+  </data>
+  <data name="lbl_delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="lbl_password_change" xml:space="preserve">
+    <value>Change password</value>
+  </data>
+  <data name="lbl_password_repeat" xml:space="preserve">
+    <value>Repeat password</value>
+  </data>
+  <data name="lbl_view" xml:space="preserve">
+    <value>Look</value>
+  </data>
+  <data name="lbl_add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="lbl_new_user" xml:space="preserve">
+    <value>New User</value>
+  </data>
+  <data name="lbl_prouser" xml:space="preserve">
+    <value>Enabling higher</value>
+  </data>
+  <data name="lbl_domain" xml:space="preserve">
+    <value>Domain</value>
+  </data>
+  <data name="lbl_install_required" xml:space="preserve">
+    <value>Install required</value>
+  </data>
+  <data name="msg_install_required" xml:space="preserve">
+    <value>A new installation of the archives data is required by the system. Click the button to make it install itself</value>
+  </data>
+  <data name="lbl_countRows" xml:space="preserve">
+    <value>Total record</value>
+  </data>
+  <data name="lbl_set_domain" xml:space="preserve">
+    <value>Set Domain</value>
+  </data>
+  <data name="lbl_msg_alert_install" xml:space="preserve">
+    <value>All data will be remove, Continue?</value>
+  </data>
+  <data name="lbl_loader_mail_to" xml:space="preserve">
+    <value>Send report with email</value>
+  </data>
+  <data name="lbl_loader_select_data" xml:space="preserve">
+    <value>Select data source</value>
+  </data>
+  <data name="lbl_loader_select_mapping" xml:space="preserve">
+    <value>Select mapping set</value>
+  </data>
+  <data name="lbl_loader_view_map" xml:space="preserve">
+    <value>View Map</value>
+  </data>
+  <data name="msg_loader_welcome" xml:space="preserve">
+    <value>Welcome in SDMXDataloader import data interface.</value>
+  </data>
+  <data name="lbl_builder" xml:space="preserve">
+    <value>Builder</value>
+  </data>
+  <data name="lbl_in_production" xml:space="preserve">
+    <value>Make in Production</value>
+  </data>
+  <data name="lbl_loader" xml:space="preserve">
+    <value>Loader</value>
+  </data>
+  <data name="lbl_out_production" xml:space="preserve">
+    <value>Remove to Production</value>
+  </data>
+  <data name="lbl_select_category" xml:space="preserve">
+    <value>Select Category</value>
+  </data>
+  <data name="lbl_add_name" xml:space="preserve">
+    <value>Add Name</value>
+  </data>
+  <data name="lbl_change_production" xml:space="preserve">
+    <value>Change production status</value>
+  </data>
+  <data name="lbl_add_desc" xml:space="preserve">
+    <value>Add Description</value>
+  </data>
+  <data name="lbl_data_import" xml:space="preserve">
+    <value>Data Import</value>
+  </data>
+  <data name="lbl_define_mapping" xml:space="preserve">
+    <value>Define Mappingset</value>
+  </data>
+  <data name="lbl_delete_mapping" xml:space="preserve">
+    <value>Delete Mappingset</value>
+  </data>
+  <data name="lbl_desc_mapping" xml:space="preserve">
+    <value>Description of Mappingset</value>
+  </data>
+  <data name="lbl_man_mappingset" xml:space="preserve">
+    <value>Manager Mapping Set</value>
+  </data>
+  <data name="lbl_man_profile" xml:space="preserve">
+    <value>Manager Profile</value>
+  </data>
+  <data name="lbl_man_structure" xml:space="preserve">
+    <value>Manager Structure</value>
+  </data>
+  <data name="lbl_name_mapping" xml:space="preserve">
+    <value>Name of Mappingset</value>
+  </data>
+  <data name="lbl_new_mapping" xml:space="preserve">
+    <value>New Mappingset</value>
+  </data>
+  <data name="lbl_save_mapping" xml:space="preserve">
+    <value>Save Mappingset</value>
+  </data>
+  <data name="lbl_set_in_production" xml:space="preserve">
+    <value>Set in production</value>
+  </data>
+  <data name="lbl_set_out_production" xml:space="preserve">
+    <value>Leave from production</value>
+  </data>
+  <data name="lbl_mapping_all_component" xml:space="preserve">
+    <value>Please provide a mapping for all data cube field.</value>
+  </data>
+  <data name="lbl_mapping_specific_char" xml:space="preserve">
+    <value>Has been chosen to use a transcoding time but no character is specified.</value>
+  </data>
+  <data name="lbl_mapping_specific_dataset" xml:space="preserve">
+    <value>Please select a valid Datacube.</value>
+  </data>
+  <data name="lbl_cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="lbl_confirm_request" xml:space="preserve">
+    <value>Confirm request</value>
+  </data>
+  <data name="lbl_create_cube_confirm" xml:space="preserve">
+    <value>A Datacube will be created? Continue?</value>
+  </data>
+  <data name="lbl_create_mapping_confirm" xml:space="preserve">
+    <value>A Mapping will be created? Continue?</value>
+  </data>
+  <data name="lbl_delete_cube_confirm" xml:space="preserve">
+    <value>Are you sure to Delete Datacube?</value>
+  </data>
+  <data name="lbl_delete_dsd_confirm" xml:space="preserve">
+    <value>Are you sure to Delete DSD?</value>
+  </data>
+  <data name="lbl_delete_mapping_confirm" xml:space="preserve">
+    <value>Are you sure to Delete Mapping?</value>
+  </data>
+  <data name="lbl_delete_user_confirm" xml:space="preserve">
+    <value>Are you sure to Delete User?</value>
+  </data>
+  <data name="lbl_start_import_confirm" xml:space="preserve">
+    <value>A File Source will be imported into Datacube? Continue?</value>
+  </data>
+  <data name="lbl_use_file_type" xml:space="preserve">
+    <value>Use SDMX-ML file</value>
+  </data>
+  <data name="lbl_cube_detail" xml:space="preserve">
+    <value>Cube Details</value>
+  </data>
+  <data name="lbl_record_count" xml:space="preserve">
+    <value>Record Count: </value>
+  </data>
+  <data name="lbl_of" xml:space="preserve">
+    <value>of</value>
+  </data>
+  <data name="lbl_is_attribute_file" xml:space="preserve">
+    <value>Attribute file</value>
+  </data>
+  <data name="msg_add_email" xml:space="preserve">
+    <value>The E-mail is mandatory</value>
+  </data>
+  <data name="msg_add_name" xml:space="preserve">
+    <value>The Name is mandatory</value>
+  </data>
+  <data name="msg_add_password" xml:space="preserve">
+    <value>The Password is mandatory</value>
+  </data>
+  <data name="msg_add_surname" xml:space="preserve">
+    <value>The Surname is mandatory</value>
+  </data>
+  <data name="msg_add_username" xml:space="preserve">
+    <value>The Username is mandatory</value>
+  </data>
+  <data name="msg_not_valid_email" xml:space="preserve">
+    <value>The E-mail is not valid</value>
+  </data>
+  <data name="msg_password_not_match" xml:space="preserve">
+    <value>Passwords don't match</value>
+  </data>
+  <data name="msg_DB_Not_Found" xml:space="preserve">
+    <value>Databases not found</value>
+  </data>
+</root>

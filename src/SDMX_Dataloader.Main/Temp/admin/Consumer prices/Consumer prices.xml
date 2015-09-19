@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<message:StructureSpecificData xmlns:message="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:ns1="urn:sdmx:org.sdmx.infomodel.datastructure.DataStructure=IMF:ECOFIN_DSD(1.0):ObsLevelDim:TIME_PERIOD" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message SDMXMessage.xsd">
+  <message:Header>
+    <message:ID>IT1001</message:ID>
+    <message:Test>true</message:Test>
+    <message:Prepared>2001-03-11T15:30:47</message:Prepared>
+    <message:Sender id="IT1">
+      <common:Name xml:lang="en" xmlns:common="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">Italian Statistical Institute</common:Name>
+      <message:Contact>
+        <common:Name xml:lang="en" xmlns:common="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">Alessio Cardacino</common:Name>
+        <message:Department xml:lang="en">DIQR</message:Department>
+        <message:Role xml:lang="en">Alessio Cardacino</message:Role>
+        <message:Telephone>+390646734183</message:Telephone>
+        <message:Fax>-</message:Fax>
+        <message:URI>http://www.istat.it</message:URI>
+        <message:Email>alcardac@istat.it</message:Email>
+      </message:Contact>
+    </message:Sender>
+    <message:Receiver id="IMF">
+      <common:Name xml:lang="en" xmlns:common="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">International Monetary Fund</common:Name>
+      <message:Contact>
+        <common:Name xml:lang="en" xmlns:common="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">-</common:Name>
+        <message:Department xml:lang="en">Information Technology</message:Department>
+        <message:Role xml:lang="en">-</message:Role>
+        <message:Telephone>-</message:Telephone>
+        <message:Fax>-</message:Fax>
+        <message:X400>-</message:X400>
+        <message:URI>-</message:URI>
+        <message:Email>-</message:Email>
+      </message:Contact>
+    </message:Receiver>
+    <common:Name xml:lang="en" xmlns:common="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">Trans46302</common:Name>
+    <message:Structure structureID="IMF_ECOFIN_DSD_1_0" namespace="urn:sdmx:org.sdmx.infomodel.datastructure.DataStructure=IMF:ECOFIN_DSD(1.0):ObsLevelDim:TIME_PERIOD" dimensionAtObservation="TIME_PERIOD">
+      <common:Structure xmlns:common="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">
+        <Ref agencyID="IMF" id="ECOFIN_DSD" version="1.0" />
+      </common:Structure>
+    </message:Structure>
+    <message:DataSetAction>Append</message:DataSetAction>
+    <message:DataSetID>ISTAT_JD_237</message:DataSetID>
+    <message:Extracted>2001-03-11T15:30:47</message:Extracted>
+    <message:ReportingBegin>2000-12-01T00:00:00</message:ReportingBegin>
+    <message:ReportingEnd>2006-01-01T00:00:00</message:ReportingEnd>
+    <message:Source xml:lang="en">source</message:Source>
+  </message:Header>
+  <message:DataSet ss:dataScope="DataStructure" xsi:type="ns1:DataSetType" ss:structureRef="IMF_ECOFIN_DSD_1_0" xmlns:ss="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/data/structurespecific">
+    <Series DATA_DOMAIN="CPI" REF_AREA="IT" INDICATOR="PCPI_IX" COUNTERPART_AREA="_Z" FREQ="M" UNIT_MULT="0">
+      <Obs TIME_PERIOD="2011-01" OBS_VALUE="101.2" />
+      <Obs TIME_PERIOD="2011-10" OBS_VALUE="103.8" />
+      <Obs TIME_PERIOD="2011-11" OBS_VALUE="103.7" />
+      <Obs TIME_PERIOD="2011-12" OBS_VALUE="104.1" />
+      <Obs TIME_PERIOD="2011-02" OBS_VALUE="101.5" />
+      <Obs TIME_PERIOD="2011-03" OBS_VALUE="101.9" />
+      <Obs TIME_PERIOD="2011-04" OBS_VALUE="102.4" />
+      <Obs TIME_PERIOD="2011-05" OBS_VALUE="102.5" />
+      <Obs TIME_PERIOD="2011-06" OBS_VALUE="102.6" />
+      <Obs TIME_PERIOD="2011-07" OBS_VALUE="102.9" />
+      <Obs TIME_PERIOD="2011-08" OBS_VALUE="103.2" />
+      <Obs TIME_PERIOD="2011-09" OBS_VALUE="103.2" />
+      <Obs TIME_PERIOD="2012-01" OBS_VALUE="104.4" />
+      <Obs TIME_PERIOD="2012-10" OBS_VALUE="106.5" />
+      <Obs TIME_PERIOD="2012-11" OBS_VALUE="106.3" />
+      <Obs TIME_PERIOD="2012-12" OBS_VALUE="106.5" />
+      <Obs TIME_PERIOD="2012-02" OBS_VALUE="104.8" />
+      <Obs TIME_PERIOD="2012-03" OBS_VALUE="105.3" />
+      <Obs TIME_PERIOD="2012-04" OBS_VALUE="105.8" />
+      <Obs TIME_PERIOD="2012-05" OBS_VALUE="105.8" />
+      <Obs TIME_PERIOD="2012-06" OBS_VALUE="106" />
+      <Obs TIME_PERIOD="2012-07" OBS_VALUE="106.1" />
+      <Obs TIME_PERIOD="2012-08" OBS_VALUE="106.5" />
+      <Obs TIME_PERIOD="2012-09" OBS_VALUE="106.5" />
+      <Obs TIME_PERIOD="2013-01" OBS_VALUE="106.7" />
+      <Obs TIME_PERIOD="2013-10" OBS_VALUE="107.3" />
+      <Obs TIME_PERIOD="2013-11" OBS_VALUE="107" />
+      <Obs TIME_PERIOD="2013-12" OBS_VALUE="107.2" />
+      <Obs TIME_PERIOD="2013-02" OBS_VALUE="106.8" />
+      <Obs TIME_PERIOD="2013-03" OBS_VALUE="107" />
+      <Obs TIME_PERIOD="2013-04" OBS_VALUE="107" />
+      <Obs TIME_PERIOD="2013-05" OBS_VALUE="107" />
+      <Obs TIME_PERIOD="2013-06" OBS_VALUE="107.3" />
+      <Obs TIME_PERIOD="2013-07" OBS_VALUE="107.4" />
+      <Obs TIME_PERIOD="2013-08" OBS_VALUE="107.8" />
+      <Obs TIME_PERIOD="2013-09" OBS_VALUE="107.5" />
+      <Obs TIME_PERIOD="2014-01" OBS_VALUE="107.4" />
+      <Obs TIME_PERIOD="2014-10" OBS_VALUE="107.4" />
+      <Obs TIME_PERIOD="2014-11" OBS_VALUE="107.2" />
+      <Obs TIME_PERIOD="2014-12" OBS_VALUE="107.2" />
+      <Obs TIME_PERIOD="2014-02" OBS_VALUE="107.3" />
+      <Obs TIME_PERIOD="2014-03" OBS_VALUE="107.4" />
+      <Obs TIME_PERIOD="2014-04" OBS_VALUE="107.6" />
+      <Obs TIME_PERIOD="2014-05" OBS_VALUE="107.5" />
+      <Obs TIME_PERIOD="2014-06" OBS_VALUE="107.6" />
+      <Obs TIME_PERIOD="2014-07" OBS_VALUE="107.5" />
+      <Obs TIME_PERIOD="2014-08" OBS_VALUE="107.7" />
+      <Obs TIME_PERIOD="2014-09" OBS_VALUE="107.3" />
+      <Obs TIME_PERIOD="2015-01" OBS_VALUE="106.8" />
+      <Obs TIME_PERIOD="2015-02" OBS_VALUE="107.2" />
+      <Obs TIME_PERIOD="2015-03" OBS_VALUE="107.3" />
+      <Obs TIME_PERIOD="2015-04" OBS_VALUE="107.5" />
+      <Obs TIME_PERIOD="2015-05" OBS_VALUE="107.6" />
+      <Obs TIME_PERIOD="2015-06" OBS_VALUE="107.8" />
+    </Series>
+    <Series DATA_DOMAIN="CPI" REF_AREA="IT" INDICATOR="PCPI_PC_PP_PT" COUNTERPART_AREA="_Z" FREQ="M" UNIT_MULT="0">
+      <Obs TIME_PERIOD="2011-01" OBS_VALUE="0.4" />
+      <Obs TIME_PERIOD="2011-10" OBS_VALUE="0.6" />
+      <Obs TIME_PERIOD="2011-11" OBS_VALUE="-0.1" />
+      <Obs TIME_PERIOD="2011-12" OBS_VALUE="0.4" />
+      <Obs TIME_PERIOD="2011-02" OBS_VALUE="0.3" />
+      <Obs TIME_PERIOD="2011-03" OBS_VALUE="0.4" />
+      <Obs TIME_PERIOD="2011-04" OBS_VALUE="0.5" />
+      <Obs TIME_PERIOD="2011-05" OBS_VALUE="0.1" />
+      <Obs TIME_PERIOD="2011-06" OBS_VALUE="0.1" />
+      <Obs TIME_PERIOD="2011-07" OBS_VALUE="0.3" />
+      <Obs TIME_PERIOD="2011-08" OBS_VALUE="0.3" />
+      <Obs TIME_PERIOD="2011-09" OBS_VALUE="0" />
+      <Obs TIME_PERIOD="2012-01" OBS_VALUE="0.3" />
+      <Obs TIME_PERIOD="2012-10" OBS_VALUE="0" />
+      <Obs TIME_PERIOD="2012-11" OBS_VALUE="-0.2" />
+      <Obs TIME_PERIOD="2012-12" OBS_VALUE="0.2" />
+      <Obs TIME_PERIOD="2012-02" OBS_VALUE="0.4" />
+      <Obs TIME_PERIOD="2012-03" OBS_VALUE="0.5" />
+      <Obs TIME_PERIOD="2012-04" OBS_VALUE="0.5" />
+      <Obs TIME_PERIOD="2012-05" OBS_VALUE="0" />
+      <Obs TIME_PERIOD="2012-06" OBS_VALUE="0.2" />
+      <Obs TIME_PERIOD="2012-07" OBS_VALUE="0.1" />
+      <Obs TIME_PERIOD="2012-08" OBS_VALUE="0.4" />
+      <Obs TIME_PERIOD="2012-09" OBS_VALUE="0" />
+      <Obs TIME_PERIOD="2013-01" OBS_VALUE="0.2" />
+      <Obs TIME_PERIOD="2013-10" OBS_VALUE="-0.2" />
+      <Obs TIME_PERIOD="2013-11" OBS_VALUE="-0.3" />
+      <Obs TIME_PERIOD="2013-12" OBS_VALUE="0.2" />
+      <Obs TIME_PERIOD="2013-02" OBS_VALUE="0.1" />
+      <Obs TIME_PERIOD="2013-03" OBS_VALUE="0.2" />
+      <Obs TIME_PERIOD="2013-04" OBS_VALUE="0" />
+      <Obs TIME_PERIOD="2013-05" OBS_VALUE="0" />
+      <Obs TIME_PERIOD="2013-06" OBS_VALUE="0.3" />
+      <Obs TIME_PERIOD="2013-07" OBS_VALUE="0.1" />
+      <Obs TIME_PERIOD="2013-08" OBS_VALUE="0.4" />
+      <Obs TIME_PERIOD="2013-09" OBS_VALUE="-0.3" />
+      <Obs TIME_PERIOD="2014-01" OBS_VALUE="0.2" />
+      <Obs TIME_PERIOD="2014-10" OBS_VALUE="0.1" />
+      <Obs TIME_PERIOD="2014-11" OBS_VALUE="-0.2" />
+      <Obs TIME_PERIOD="2014-12" OBS_VALUE="0" />
+      <Obs TIME_PERIOD="2014-02" OBS_VALUE="-0.1" />
+      <Obs TIME_PERIOD="2014-03" OBS_VALUE="0.1" />
+      <Obs TIME_PERIOD="2014-04" OBS_VALUE="0.2" />
+      <Obs TIME_PERIOD="2014-05" OBS_VALUE="-0.1" />
+      <Obs TIME_PERIOD="2014-06" OBS_VALUE="0.1" />
+      <Obs TIME_PERIOD="2014-07" OBS_VALUE="-0.1" />
+      <Obs TIME_PERIOD="2014-08" OBS_VALUE="0.2" />
+      <Obs TIME_PERIOD="2014-09" OBS_VALUE="-0.4" />
+      <Obs TIME_PERIOD="2015-01" OBS_VALUE="-0.4" />
+      <Obs TIME_PERIOD="2015-02" OBS_VALUE="0.4" />
+      <Obs TIME_PERIOD="2015-03" OBS_VALUE="0.1" />
+      <Obs TIME_PERIOD="2015-04" OBS_VALUE="0.2" />
+      <Obs TIME_PERIOD="2015-05" OBS_VALUE="0.1" />
+      <Obs TIME_PERIOD="2015-06" OBS_VALUE="0.2" />
+    </Series>
+  </message:DataSet>
+</message:StructureSpecificData>

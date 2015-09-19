@@ -1,0 +1,467 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ApplicationIcon>favicon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B7697437-F1C1-488E-AFAC-A895E4DE0093}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SDMX_Dataloader.Main</RootNamespace>
+    <AssemblyName>SDMX_Dataloader.Main</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication>enabled</IISExpressAnonymousAuthentication>
+    <IISExpressWindowsAuthentication>disabled</IISExpressWindowsAuthentication>
+    <IISExpressUseClassicPipelineMode>true</IISExpressUseClassicPipelineMode>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PublishDatabaseSettings>
+      <Objects>
+      </Objects>
+    </PublishDatabaseSettings>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ionic.Utils.Zip">
+      <HintPath>..\..\lib\3thPart\Ionic.Utils.Zip.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.13.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\lib\sdmx\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="MappingStore.Store, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\lib\sdmx\MappingStore.Store.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.FriendlyUrls">
+      <HintPath>..\packages\Microsoft.AspNet.FriendlyUrls.Core.1.0.2\lib\net40\Microsoft.AspNet.FriendlyUrls.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Web.Infrastructure">
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="SdmxApi">
+      <HintPath>..\..\lib\sdmx\SdmxApi.dll</HintPath>
+    </Reference>
+    <Reference Include="SdmxSourceUtil, Version=0.3.4.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\lib\sdmx\SdmxSourceUtil.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Web" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Builder.aspx" />
+    <Content Include="Controls\BaseControl.ascx" />
+    <Content Include="Controls\CSVUploadControl.ascx" />
+    <Content Include="Controls\DomainControl.ascx" />
+    <Content Include="Controls\LanguageControl.ascx" />
+    <Content Include="Controls\ManagerUserControl.ascx" />
+    <Content Include="Controls\MultipleFileUploadControl.ascx" />
+    <Content Include="Controls\UserControl.ascx" />
+    <Content Include="Controls\UserWidget.ascx" />
+    <Content Include="img\cat_sch.png" />
+    <Content Include="img\cube_red.png" />
+    <Content Include="Loader.aspx" />
+    <Content Include="css\reset.css" />
+    <Content Include="css\style.css" />
+    <Content Include="favicon.ico" />
+    <Content Include="Global.asax" />
+    <Content Include="img\cat.png" />
+    <Content Include="img\cube.png" />
+    <Content Include="img\logo.png" />
+    <Content Include="img\AjaxLoading.gif" />
+    <Content Include="img\attribute.png" />
+    <Content Include="img\mandatory_attribute.png" />
+    <Content Include="img\dimension.png" />
+    <Content Include="img\freq_dimension.png" />
+    <Content Include="img\istat.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\lines.png" />
+    <Content Include="img\lines_1.png" />
+    <Content Include="img\measure_dimension.png" />
+    <Content Include="img\pattern-1.gif" />
+    <Content Include="img\pattern-2.gif" />
+    <Content Include="img\time_dimension.png" />
+    <Content Include="Install.aspx" />
+    <Content Include="jquery\jquery-1.11.1.min.js" />
+    <Content Include="jquery\jQuery-File-Upload\jquery.form.js" />
+    <Content Include="jquery\jQuery-File-Upload\jquery.uploadfile.js" />
+    <Content Include="jquery\jQuery-File-Upload\jquery.uploadfile.min.js" />
+    <Content Include="jquery\jQuery-File-Upload\uploadfile.css" />
+    <Content Include="jquery\jquery-jstree\jstree.js" />
+    <Content Include="jquery\jquery-jstree\jstree.min.js" />
+    <Content Include="jquery\jquery-jstree\themes\default-dark\32px.png" />
+    <Content Include="jquery\jquery-jstree\themes\default-dark\40px.png" />
+    <Content Include="jquery\jquery-jstree\themes\default-dark\style.css" />
+    <Content Include="jquery\jquery-jstree\themes\default-dark\style.min.css" />
+    <Content Include="jquery\jquery-jstree\themes\default-dark\throbber.gif" />
+    <Content Include="jquery\jquery-jstree\themes\default\32px.png" />
+    <Content Include="jquery\jquery-jstree\themes\default\40px.png" />
+    <Content Include="jquery\jquery-jstree\themes\default\style.css" />
+    <Content Include="jquery\jquery-jstree\themes\default\style.min.css" />
+    <Content Include="jquery\jquery-jstree\themes\default\throbber.gif" />
+    <Content Include="jquery\jquery-MD5.js" />
+    <Content Include="jquery\jquery-ui-1.11.1.custom\external\jquery\jquery.js" />
+    <Content Include="jquery\jquery-ui-1.11.1.custom\images\ui-bg_diagonals-small_100_fcfdfd_40x40.png" />
+    <Content Include="jquery\jquery-ui-1.11.1.custom\images\ui-bg_diagonals-small_50_d30605_40x40.png" />
+    <Content Include="jquery\jquery-ui-1.11.1.custom\images\ui-bg_diagonals-small_55_f8da4e_40x40.png" />
+    <Content Include="jquery\jquery-ui-1.11.1.custom\images\ui-bg_diagonals-small_75_393939_40x40.png" />
+    <Content Include="jquery\jquery-ui-1.11.1.custom\images\ui-bg_flat_55_999999_40x100.png" />
+    <Content Include="jquery\jquery-ui-1.11.1.custom\images\ui-bg_glass_75_008678_1x400.png" />
+    <Content Include="jquery\jquery-ui-1.11.1.custom\images\ui-bg_gloss-wave_75_363636_500x100.png" />
+    <Content Include="jquery\jquery-ui-1.11.1.custom\images\ui-bg_gloss-wave_75_3c3c3c_500x100.png" />
+    <Content Include="jquery\jquery-ui-1.11.1.custom\images\ui-bg_gloss-wave_85_94d8cb_500x100.png" />
+    <Content Include="jquery\jquery-ui-1.11.1.custom\images\ui-icons_000000_256x240.png" />
+    <Content Include="jquery\jquery-ui-1.11.1.custom\images\ui-icons_0078ae_256x240.png" />
+    <Content Include="jquery\jquery-ui-1.11.1.custom\images\ui-icons_d8e7f3_256x240.png" />
+    <Content Include="jquery\jquery-ui-1.11.1.custom\images\ui-icons_e0fdff_256x240.png" />
+    <Content Include="jquery\jquery-ui-1.11.1.custom\images\ui-icons_f7a50d_256x240.png" />
+    <Content Include="jquery\jquery-ui-1.11.1.custom\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="jquery\jquery-ui-1.11.1.custom\index.html" />
+    <Content Include="jquery\jquery-ui-1.11.1.custom\jquery-ui.css" />
+    <Content Include="jquery\jquery-ui-1.11.1.custom\jquery-ui.js" />
+    <Content Include="jquery\jquery-ui-1.11.1.custom\jquery-ui.min.css" />
+    <Content Include="jquery\jquery-ui-1.11.1.custom\jquery-ui.min.js" />
+    <Content Include="jquery\jquery-ui-1.11.1.custom\jquery-ui.structure.css" />
+    <Content Include="jquery\jquery-ui-1.11.1.custom\jquery-ui.structure.min.css" />
+    <Content Include="jquery\jquery-ui-1.11.1.custom\jquery-ui.theme.css" />
+    <Content Include="jquery\jquery-ui-1.11.1.custom\jquery-ui.theme.min.css" />
+    <Content Include="Login.aspx" />
+    <Content Include="Profile.aspx" />
+    <Content Include="Retrive.aspx" />
+    <Content Include="scripts\Layout.js" />
+    <Content Include="scripts\Utility.js" />
+    <Content Include="packages.config" />
+    <None Include="Properties\PublishProfiles\Profile1.pubxml" />
+    <Content Include="sql\10_MR_WBS.sql" />
+    <Content Include="sql\11_sqlserver_to_v4.0.sql" />
+    <Content Include="sql\1_DDB_Scheme.sql" />
+    <Content Include="sql\2_DDB_Proc.sql" />
+    <Content Include="sql\3_DDB_WBS.sql" />
+    <Content Include="sql\4_DDB_Data.sql" />
+    <Content Include="sql\5_DDB_TIME_PERIOD.sql" />
+    <Content Include="sql\6_MR_Scheme.sql" />
+    <Content Include="sql\7_MR_Procedures.sql" />
+    <Content Include="sql\8_MR_Agencies.sql" />
+    <Content Include="sql\9_MR_LoginObjects.sql" />
+    <Content Include="Temp\ReadMe.txt" />
+    <Content Include="Web.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="WebServices\RestService.svc" />
+    <Content Include="WebServices\WBuilder.asmx" />
+    <Content Include="WebServices\WLoader.asmx" />
+    <Content Include="WebServices\WProfile.asmx" />
+    <Content Include="WebServices\WStatic.asmx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_GlobalResources\Messages.it-IT.designer.cs">
+      <DependentUpon>Messages.it-IT.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="App_GlobalResources\Notification.it-IT.designer.cs">
+      <DependentUpon>Notification.it-IT.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="App_GlobalResources\Notification.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Notification.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Messages.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Messages.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Builder.aspx.cs">
+      <DependentUpon>Builder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Builder.aspx.designer.cs">
+      <DependentUpon>Builder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Class\BasePage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Class\SettingsHandler.cs" />
+    <Compile Include="Class\Util.cs" />
+    <Compile Include="Controls\BaseControl.ascx.cs">
+      <DependentUpon>BaseControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\BaseControl.ascx.designer.cs">
+      <DependentUpon>BaseControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\CSVUploadControl.ascx.cs">
+      <DependentUpon>CSVUploadControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\CSVUploadControl.ascx.designer.cs">
+      <DependentUpon>CSVUploadControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\DomainControl.ascx.cs">
+      <DependentUpon>DomainControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\DomainControl.ascx.designer.cs">
+      <DependentUpon>DomainControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\LanguageControl.ascx.cs">
+      <DependentUpon>LanguageControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\LanguageControl.ascx.designer.cs">
+      <DependentUpon>LanguageControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ManagerUserControl.ascx.cs">
+      <DependentUpon>ManagerUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\ManagerUserControl.ascx.designer.cs">
+      <DependentUpon>ManagerUserControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\MultipleFileUploadControl.ascx.cs">
+      <DependentUpon>MultipleFileUploadControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\MultipleFileUploadControl.ascx.designer.cs">
+      <DependentUpon>MultipleFileUploadControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\UserControl.ascx.cs">
+      <DependentUpon>UserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\UserControl.ascx.designer.cs">
+      <DependentUpon>UserControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\UserWidget.ascx.cs">
+      <DependentUpon>UserWidget.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\UserWidget.ascx.designer.cs">
+      <DependentUpon>UserWidget.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Loader.aspx.cs">
+      <DependentUpon>Loader.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Loader.aspx.designer.cs">
+      <DependentUpon>Loader.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Class\I18nSupport.cs" />
+    <Compile Include="Class\LocaleResolver.cs" />
+    <Compile Include="Install.aspx.cs">
+      <DependentUpon>Install.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Install.aspx.designer.cs">
+      <DependentUpon>Install.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Profile.aspx.cs">
+      <DependentUpon>Profile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Profile.aspx.designer.cs">
+      <DependentUpon>Profile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Retrive.aspx.cs">
+      <DependentUpon>Retrive.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Retrive.aspx.designer.cs">
+      <DependentUpon>Retrive.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="WebServices\IRestService.cs" />
+    <Compile Include="WebServices\RestService.svc.cs">
+      <DependentUpon>RestService.svc</DependentUpon>
+    </Compile>
+    <Compile Include="WebServices\WBuilder.asmx.cs">
+      <DependentUpon>WBuilder.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WebServices\WLoader.asmx.cs">
+      <DependentUpon>WLoader.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WebServices\WProfile.asmx.cs">
+      <DependentUpon>WProfile.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WebServices\WStatic.asmx.cs">
+      <DependentUpon>WStatic.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="log4net.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Site.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="bin\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\Messages.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Messages.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ISTAT.DBDAL\ISTAT.DBDAL.csproj">
+      <Project>{1042ED00-72E5-4EE6-A910-525F77F0668B}</Project>
+      <Name>ISTAT.DBDAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ISTAT.ENTITY\ISTAT.ENTITY.csproj">
+      <Project>{3DFAC114-1938-48DB-BA2F-EDE2D053E52A}</Project>
+      <Name>ISTAT.ENTITY</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ISTAT.EXPORT\ISTAT.EXPORT.csproj">
+      <Project>{F05353B5-107A-45DE-98BF-A43C87D20ECE}</Project>
+      <Name>ISTAT.EXPORT</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ISTAT.IO\ISTAT.IO.csproj">
+      <Project>{85728C59-AB7F-4322-9D32-E0C89AAA0C48}</Project>
+      <Name>ISTAT.IO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SDMX_Dataloader.Engine\SDMX_Dataloader.Engine.csproj">
+      <Project>{2ACDBAF4-EBE3-43EA-ABC9-C5819262A9F5}</Project>
+      <Name>SDMX_Dataloader.Engine</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\Notification.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Notification.designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\Notification.it-IT.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Notification.it-IT.designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\Messages.it-IT.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Messages.it-IT.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>7203</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

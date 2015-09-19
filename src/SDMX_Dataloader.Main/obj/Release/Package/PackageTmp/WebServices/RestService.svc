@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="SDMX_Dataloader.Main.WebServices.RestService" CodeBehind="RestService.svc.cs" %>

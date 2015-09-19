@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<message:StructureSpecificData xmlns:message="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:ns1="urn:sdmx:org.sdmx.infomodel.datastructure.DataStructure=IMF:ECOFIN_DSD(1.0):ObsLevelDim:TIME_PERIOD" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message SDMXMessage.xsd">
+  <message:Header>
+    <message:ID>IT1001</message:ID>
+    <message:Test>true</message:Test>
+    <message:Prepared>2001-03-11T15:30:47</message:Prepared>
+    <message:Sender id="IT1">
+      <common:Name xml:lang="en" xmlns:common="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">Italian Statistical Institute</common:Name>
+      <message:Contact>
+        <common:Name xml:lang="en" xmlns:common="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">Alessio Cardacino</common:Name>
+        <message:Department xml:lang="en">DIQR</message:Department>
+        <message:Role xml:lang="en">Alessio Cardacino</message:Role>
+        <message:Telephone>+390646734183</message:Telephone>
+        <message:Fax>-</message:Fax>
+        <message:URI>http://www.istat.it</message:URI>
+        <message:Email>alcardac@istat.it</message:Email>
+      </message:Contact>
+    </message:Sender>
+    <message:Receiver id="IMF">
+      <common:Name xml:lang="en" xmlns:common="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">International Monetary Fund</common:Name>
+      <message:Contact>
+        <common:Name xml:lang="en" xmlns:common="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">-</common:Name>
+        <message:Department xml:lang="en">Information Technology</message:Department>
+        <message:Role xml:lang="en">-</message:Role>
+        <message:Telephone>-</message:Telephone>
+        <message:Fax>-</message:Fax>
+        <message:X400>-</message:X400>
+        <message:URI>-</message:URI>
+        <message:Email>-</message:Email>
+      </message:Contact>
+    </message:Receiver>
+    <common:Name xml:lang="en" xmlns:common="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">Trans46302</common:Name>
+    <message:Structure structureID="IMF_ECOFIN_DSD_1_0" namespace="urn:sdmx:org.sdmx.infomodel.datastructure.DataStructure=IMF:ECOFIN_DSD(1.0):ObsLevelDim:TIME_PERIOD" dimensionAtObservation="TIME_PERIOD">
+      <common:Structure xmlns:common="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">
+        <Ref agencyID="IMF" id="ECOFIN_DSD" version="1.0" />
+      </common:Structure>
+    </message:Structure>
+    <message:DataSetAction>Append</message:DataSetAction>
+    <message:DataSetID>ISTAT_JD_237</message:DataSetID>
+    <message:Extracted>2001-03-11T15:30:47</message:Extracted>
+    <message:ReportingBegin>2000-12-01T00:00:00</message:ReportingBegin>
+    <message:ReportingEnd>2006-01-01T00:00:00</message:ReportingEnd>
+    <message:Source xml:lang="en">source</message:Source>
+  </message:Header>
+  <message:DataSet ss:dataScope="DataStructure" xsi:type="ns1:DataSetType" ss:structureRef="IMF_ECOFIN_DSD_1_0" xmlns:ss="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/data/structurespecific">
+    <Series DATA_DOMAIN="EMP" REF_AREA="IT" COUNTERPART_AREA="_Z" FREQ="Q" INDICATOR="LE_PE_SA_NUM" UNIT_MULT="3">
+      <Obs TIME_PERIOD="1992-Q4" OBS_VALUE="21507.262" />
+      <Obs TIME_PERIOD="1993-Q1" OBS_VALUE="21441.704" />
+      <Obs TIME_PERIOD="1993-Q2" OBS_VALUE="21376.712" />
+      <Obs TIME_PERIOD="1993-Q3" OBS_VALUE="21309.675" />
+      <Obs TIME_PERIOD="1993-Q4" OBS_VALUE="21096.502" />
+      <Obs TIME_PERIOD="1994-Q1" OBS_VALUE="21008.024" />
+      <Obs TIME_PERIOD="1994-Q2" OBS_VALUE="20968.624" />
+      <Obs TIME_PERIOD="1994-Q3" OBS_VALUE="20895.832" />
+      <Obs TIME_PERIOD="1994-Q4" OBS_VALUE="20800.541" />
+      <Obs TIME_PERIOD="1995-Q1" OBS_VALUE="20760.407" />
+      <Obs TIME_PERIOD="1995-Q2" OBS_VALUE="20737.695" />
+      <Obs TIME_PERIOD="1995-Q3" OBS_VALUE="20746.581" />
+      <Obs TIME_PERIOD="1995-Q4" OBS_VALUE="20811.415" />
+      <Obs TIME_PERIOD="1996-Q1" OBS_VALUE="20799.709" />
+      <Obs TIME_PERIOD="1996-Q2" OBS_VALUE="20806.288" />
+      <Obs TIME_PERIOD="1996-Q3" OBS_VALUE="20866.705" />
+      <Obs TIME_PERIOD="1996-Q4" OBS_VALUE="20837.453" />
+      <Obs TIME_PERIOD="1997-Q1" OBS_VALUE="20810.912" />
+      <Obs TIME_PERIOD="1997-Q2" OBS_VALUE="20872.398" />
+      <Obs TIME_PERIOD="1997-Q3" OBS_VALUE="20896.016" />
+      <Obs TIME_PERIOD="1997-Q4" OBS_VALUE="20857.502" />
+      <Obs TIME_PERIOD="1998-Q1" OBS_VALUE="20942.327" />
+      <Obs TIME_PERIOD="1998-Q2" OBS_VALUE="21015.362" />
+      <Obs TIME_PERIOD="1998-Q3" OBS_VALUE="21066.331" />
+      <Obs TIME_PERIOD="1998-Q4" OBS_VALUE="21150.477" />
+      <Obs TIME_PERIOD="1999-Q1" OBS_VALUE="21153.344" />
+      <Obs TIME_PERIOD="1999-Q2" OBS_VALUE="21230.408" />
+      <Obs TIME_PERIOD="1999-Q3" OBS_VALUE="21314.193" />
+      <Obs TIME_PERIOD="1999-Q4" OBS_VALUE="21342.034" />
+      <Obs TIME_PERIOD="2000-Q1" OBS_VALUE="21408.685" />
+      <Obs TIME_PERIOD="2000-Q2" OBS_VALUE="21535.171" />
+      <Obs TIME_PERIOD="2000-Q3" OBS_VALUE="21676.056" />
+      <Obs TIME_PERIOD="2000-Q4" OBS_VALUE="21791.184" />
+      <Obs TIME_PERIOD="2001-Q1" OBS_VALUE="21888.244" />
+      <Obs TIME_PERIOD="2001-Q2" OBS_VALUE="21935.886" />
+      <Obs TIME_PERIOD="2001-Q3" OBS_VALUE="22048.184" />
+      <Obs TIME_PERIOD="2001-Q4" OBS_VALUE="22074.35" />
+      <Obs TIME_PERIOD="2002-Q1" OBS_VALUE="22175.154" />
+      <Obs TIME_PERIOD="2002-Q2" OBS_VALUE="22162.434" />
+      <Obs TIME_PERIOD="2002-Q3" OBS_VALUE="22258.956" />
+      <Obs TIME_PERIOD="2002-Q4" OBS_VALUE="22228.253" />
+      <Obs TIME_PERIOD="2003-Q1" OBS_VALUE="22167.063" />
+      <Obs TIME_PERIOD="2003-Q2" OBS_VALUE="22247.279" />
+      <Obs TIME_PERIOD="2003-Q3" OBS_VALUE="22209.531" />
+      <Obs TIME_PERIOD="2003-Q4" OBS_VALUE="22334.97" />
+      <Obs TIME_PERIOD="2004-Q1" OBS_VALUE="22278.453" />
+      <Obs TIME_PERIOD="2004-Q2" OBS_VALUE="22399.028" />
+      <Obs TIME_PERIOD="2004-Q3" OBS_VALUE="22446.975" />
+      <Obs TIME_PERIOD="2004-Q4" OBS_VALUE="22381.536" />
+      <Obs TIME_PERIOD="2005-Q1" OBS_VALUE="22405.179" />
+      <Obs TIME_PERIOD="2005-Q2" OBS_VALUE="22425.242" />
+      <Obs TIME_PERIOD="2005-Q3" OBS_VALUE="22392.202" />
+      <Obs TIME_PERIOD="2005-Q4" OBS_VALUE="22514.081" />
+      <Obs TIME_PERIOD="2006-Q1" OBS_VALUE="22660.3" />
+      <Obs TIME_PERIOD="2006-Q2" OBS_VALUE="22776.784" />
+      <Obs TIME_PERIOD="2006-Q3" OBS_VALUE="22704.52" />
+      <Obs TIME_PERIOD="2006-Q4" OBS_VALUE="22779.86" />
+      <Obs TIME_PERIOD="2007-Q1" OBS_VALUE="22763.708" />
+      <Obs TIME_PERIOD="2007-Q2" OBS_VALUE="22877.497" />
+      <Obs TIME_PERIOD="2007-Q3" OBS_VALUE="22957.269" />
+      <Obs TIME_PERIOD="2007-Q4" OBS_VALUE="23037.862" />
+      <Obs TIME_PERIOD="2008-Q1" OBS_VALUE="23078.068" />
+      <Obs TIME_PERIOD="2008-Q2" OBS_VALUE="23139.431" />
+      <Obs TIME_PERIOD="2008-Q3" OBS_VALUE="23097.43" />
+      <Obs TIME_PERIOD="2008-Q4" OBS_VALUE="23012.471" />
+      <Obs TIME_PERIOD="2009-Q1" OBS_VALUE="22826.771" />
+      <Obs TIME_PERIOD="2009-Q2" OBS_VALUE="22743.162" />
+      <Obs TIME_PERIOD="2009-Q3" OBS_VALUE="22639.518" />
+      <Obs TIME_PERIOD="2009-Q4" OBS_VALUE="22615.581" />
+      <Obs TIME_PERIOD="2010-Q1" OBS_VALUE="22540.026" />
+      <Obs TIME_PERIOD="2010-Q2" OBS_VALUE="22554.054" />
+      <Obs TIME_PERIOD="2010-Q3" OBS_VALUE="22511.305" />
+      <Obs TIME_PERIOD="2010-Q4" OBS_VALUE="22538.873" />
+      <Obs TIME_PERIOD="2011-Q1" OBS_VALUE="22610.637" />
+      <Obs TIME_PERIOD="2011-Q2" OBS_VALUE="22603.849" />
+      <Obs TIME_PERIOD="2011-Q3" OBS_VALUE="22574.075" />
+      <Obs TIME_PERIOD="2011-Q4" OBS_VALUE="22552.958" />
+      <Obs TIME_PERIOD="2012-Q1" OBS_VALUE="22592.11" />
+      <Obs TIME_PERIOD="2012-Q2" OBS_VALUE="22629.485" />
+      <Obs TIME_PERIOD="2012-Q3" OBS_VALUE="22543.184" />
+      <Obs TIME_PERIOD="2012-Q4" OBS_VALUE="22464.714" />
+      <Obs TIME_PERIOD="2013-Q1" OBS_VALUE="22282.578" />
+      <Obs TIME_PERIOD="2013-Q2" OBS_VALUE="22213.329" />
+      <Obs TIME_PERIOD="2013-Q3" OBS_VALUE="22170.689" />
+      <Obs TIME_PERIOD="2013-Q4" OBS_VALUE="22171.32" />
+      <Obs TIME_PERIOD="2014-Q1" OBS_VALUE="22192.361" />
+      <Obs TIME_PERIOD="2014-Q2" OBS_VALUE="22261.687" />
+      <Obs TIME_PERIOD="2014-Q3" OBS_VALUE="22287.042" />
+      <Obs TIME_PERIOD="2014-Q4" OBS_VALUE="22302.983" />
+      <Obs TIME_PERIOD="2015-Q1" OBS_VALUE="22300.607" />
+    </Series>
+  </message:DataSet>
+</message:StructureSpecificData>

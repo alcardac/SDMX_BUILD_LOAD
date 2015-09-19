@@ -1,0 +1,15 @@
+D:\SDMX_RI\SDMXDataloader-20012015\src\SDMX_Dataloader.Engine\obj\Debug\SDMX_Dataloader.Engine.csprojResolveAssemblyReference.cache
+D:\SDMX_RI\SDMXDataloader-20012015\src\bin\Debug\SDMX_Dataloader.Engine.dll
+D:\SDMX_RI\SDMXDataloader-20012015\src\bin\Debug\SDMX_Dataloader.Engine.pdb
+D:\SDMX_RI\SDMXDataloader-20012015\src\SDMX_Dataloader.Engine\obj\Debug\SDMX_Dataloader.Engine.dll
+D:\SDMX_RI\SDMXDataloader-20012015\src\SDMX_Dataloader.Engine\obj\Debug\SDMX_Dataloader.Engine.pdb
+D:\ISTAT\Source\SDMXDataloader\src\bin\Debug\SDMX_Dataloader.Engine.dll
+D:\ISTAT\Source\SDMXDataloader\src\bin\Debug\SDMX_Dataloader.Engine.pdb
+D:\ISTAT\Source\SDMXDataloader\src\SDMX_Dataloader.Engine\obj\Debug\SDMX_Dataloader.Engine.csprojResolveAssemblyReference.cache
+D:\ISTAT\Source\SDMXDataloader\src\SDMX_Dataloader.Engine\obj\Debug\SDMX_Dataloader.Engine.dll
+D:\ISTAT\Source\SDMXDataloader\src\SDMX_Dataloader.Engine\obj\Debug\SDMX_Dataloader.Engine.pdb
+E:\ISTAT2\Source\SDMXDataloader\src\bin\Debug\SDMX_Dataloader.Engine.dll
+E:\ISTAT2\Source\SDMXDataloader\src\bin\Debug\SDMX_Dataloader.Engine.pdb
+E:\ISTAT2\Source\SDMXDataloader\src\SDMX_Dataloader.Engine\obj\Debug\SDMX_Dataloader.Engine.csprojResolveAssemblyReference.cache
+E:\ISTAT2\Source\SDMXDataloader\src\SDMX_Dataloader.Engine\obj\Debug\SDMX_Dataloader.Engine.dll
+E:\ISTAT2\Source\SDMXDataloader\src\SDMX_Dataloader.Engine\obj\Debug\SDMX_Dataloader.Engine.pdb

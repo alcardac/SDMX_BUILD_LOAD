@@ -1,0 +1,80 @@
+﻿<%@ Master Language="C#" 
+AutoEventWireup="true" 
+CodeBehind="Site.master.cs" 
+Inherits="SDMX_Dataloader.Main.Site" %>
+
+<%@ Register TagPrefix="uc" TagName="UserWidget" Src="~/Controls/UserWidget.ascx" %>
+<%@ Register TagPrefix="uc" TagName="LanguageControl" Src="~/Controls/LanguageControl.ascx" %>
+
+<%@ Import Namespace="System.Globalization" %>
+<%@ Import Namespace="SDMX_Dataloader.Main.Web" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+
+    <title><%= Resources.Messages.app_title %></title>
+    <link href="./css/reset.css" rel="stylesheet" type="text/css" />
+    <link href="./css/style.css" rel="stylesheet" type="text/css" />
+
+    <link runat="server" rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+    <link runat="server" rel="icon" href="./favicon.ico" type="image/ico" />
+
+    <!-- <script src="jquery/jquery-ui-1.11.1.custom/external/jquery/jquery.js" type="text/javascript"></script> -->
+    <script src="jquery/jquery-1.11.1.min.js" type="text/javascript"></script>
+    <%--<script src="jquery/jquery-MD5.js" type="text/javascript"></script>--%>
+
+    <link href="jquery/jquery-ui-1.11.1.custom/jquery-ui.css" rel="stylesheet" type="text/css" />
+    <script src="jquery/jquery-ui-1.11.1.custom/jquery-ui.js" type="text/javascript"></script>
+    
+    <script src="scripts/Utility.js" type="text/javascript"></script>
+    <script src="scripts/Layout.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        // Setup
+        var _layoutManager = new LayoutManager({}, {
+            titleLoading: "<%= Resources.Messages.lbl_loading_wait %>",
+            messageLoading: "<%= Resources.Messages.msg_loading_wait %>"
+        }, false);
+    </script>
+
+
+    <asp:ContentPlaceHolder ID="head" runat="server"> </asp:ContentPlaceHolder>
+
+</head>
+<body>
+    <form id="wrapper" runat="server" class="ui-widget  ui-widget-content ui-corner-all">
+
+        <!-- header bar -->
+        <div id="header">
+            <!-- Logo Applicazione -->
+            <a class="logo_app" href="#"><img src="img/logo.png" alt="SDMXDataloader"/></a>
+            <div class="header-widgets">
+                <uc:LanguageControl ID="ucLanguageControl" runat="server"></uc:LanguageControl>
+                <uc:UserWidget ID="ucUserWidget" runat="server"></uc:UserWidget>
+            </div>
+        </div>
+
+        <!-- panel dei contenuti -->
+        <div id="content-main" class="fill-space">
+            <asp:ContentPlaceHolder ID="content" runat="server"></asp:ContentPlaceHolder>
+        </div>
+
+        <!-- Footer text -->
+        <div id="footer">
+            <p><%= Resources.Messages.app_copy %></p>
+
+        </div>
+
+        <div style="clear:both"></div>
+
+    </form>
+
+    <script type="text/javascript">
+
+        $('.tooltip').tooltip();
+
+    </script>
+
+</body>
+</html>

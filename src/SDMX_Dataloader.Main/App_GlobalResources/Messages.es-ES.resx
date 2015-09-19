@@ -1,0 +1,426 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="app_copy" xml:space="preserve">
+    <value>SDMX Dataloader ®2014 - ISTAT - Istituto nazionale di statistica - Via Cesare Balbo 16 00184 - Roma tel. +39 06 46731</value>
+  </data>
+  <data name="app_title" xml:space="preserve">
+    <value>SDMX Dataloader</value>
+  </data>
+  <data name="lbl_concept" xml:space="preserve">
+    <value>Concepto</value>
+  </data>
+  <data name="lbl_concept_dettail" xml:space="preserve">
+    <value>detalle del concepto</value>
+  </data>
+  <data name="lbl_confirm" xml:space="preserve">
+    <value>Confirmación</value>
+  </data>
+  <data name="lbl_create_mapping" xml:space="preserve">
+    <value>Crear mapeo</value>
+  </data>
+  <data name="lbl_dim_max" xml:space="preserve">
+    <value>cuidado! Número máximo de dimensiones seleccionables:</value>
+  </data>
+  <data name="lbl_dsd_avaible" xml:space="preserve">
+    <value>Conjunto de datos disponible</value>
+  </data>
+  <data name="lbl_ds_avaible" xml:space="preserve">
+    <value>Conjunto de datos disponible</value>
+  </data>
+  <data name="lbl_ds_code" xml:space="preserve">
+    <value>Código único del Conjunto de datos</value>
+  </data>
+  <data name="lbl_ds_create" xml:space="preserve">
+    <value>Crear Conjunto de datos</value>
+  </data>
+  <data name="lbl_ds_name" xml:space="preserve">
+    <value>nombres visualizados del Conjunto de datos</value>
+  </data>
+  <data name="lbl_ds_new" xml:space="preserve">
+    <value>Crear un nuevo Conjunto de datos</value>
+  </data>
+  <data name="lbl_edit" xml:space="preserve">
+    <value>Modificar</value>
+  </data>
+  <data name="lbl_email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="lbl_id" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="lbl_login" xml:space="preserve">
+    <value>Acceso</value>
+  </data>
+  <data name="lbl_name" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="lbl_page_profile" xml:space="preserve">
+    <value>Perfil</value>
+  </data>
+  <data name="lbl_password" xml:space="preserve">
+    <value>Contraseña</value>
+  </data>
+  <data name="lbl_role" xml:space="preserve">
+    <value>Rol</value>
+  </data>
+  <data name="lbl_select_ds" xml:space="preserve">
+    <value>Seleccionar un conjunto de datos</value>
+  </data>
+  <data name="lbl_select_dsd" xml:space="preserve">
+    <value>Seleccionar una DSD</value>
+  </data>
+  <data name="lbl_select_mapping" xml:space="preserve">
+    <value>Seleccionar a mapeo</value>
+  </data>
+  <data name="lbl_surname" xml:space="preserve">
+    <value>Apellido</value>
+  </data>
+  <data name="lbl_upload_file_csv" xml:space="preserve">
+    <value>Seleccionar a fichero CSV</value>
+  </data>
+  <data name="lbl_username" xml:space="preserve">
+    <value>Nombre del usuario</value>
+  </data>
+  <data name="lbl_widget_action" xml:space="preserve">
+    <value>Acciones</value>
+  </data>
+  <data name="lbl_widget_profile" xml:space="preserve">
+    <value>perfil del usuario</value>
+  </data>
+  <data name="msg_needlogin" xml:space="preserve">
+    <value>Iniciar sesión para entrar en el sitio</value>
+  </data>
+  <data name="msg_retrivepsw" xml:space="preserve">
+    <value>Olvidaste tu contraseña?</value>
+  </data>
+  <data name="lbl_ds_info" xml:space="preserve">
+    <value>Información sobre el conjunto de datos</value>
+  </data>
+  <data name="lbl_loading_wait" xml:space="preserve">
+    <value>Operación completada</value>
+  </data>
+  <data name="lbl_next_step" xml:space="preserve">
+    <value>Avanzar</value>
+  </data>
+  <data name="lbl_prev_step" xml:space="preserve">
+    <value>Hacia atrás</value>
+  </data>
+  <data name="msg_loading_wait" xml:space="preserve">
+    <value>Por favor, espere hasta el final de la operación. No apague el ordenador y no cierre el navegador</value>
+  </data>
+  <data name="lbl_content" xml:space="preserve">
+    <value>Contenido del fichero</value>
+  </data>
+  <data name="lbl_filename" xml:space="preserve">
+    <value>Nombre del fichero</value>
+  </data>
+  <data name="lbl_filesize" xml:space="preserve">
+    <value>Tamaño del fichero</value>
+  </data>
+  <data name="lbl_mapping_avaible" xml:space="preserve">
+    <value>Mapeos disponible</value>
+  </data>
+  <data name="lbl_mapping_create" xml:space="preserve">
+    <value>Crear mapeos</value>
+  </data>
+  <data name="lbl_mapping_new" xml:space="preserve">
+    <value>Crear nuevo mapeos</value>
+  </data>
+  <data name="lbl_ds_delete" xml:space="preserve">
+    <value>Eliminar conjunto de datos</value>
+  </data>
+  <data name="lbl_mapping_delete" xml:space="preserve">
+    <value>Eliminar mapeo</value>
+  </data>
+  <data name="lbl_install" xml:space="preserve">
+    <value>Instalación de la base de datos</value>
+  </data>
+  <data name="lbl_retrive" xml:space="preserve">
+    <value>Encontrar el perfil</value>
+  </data>
+  <data name="lbl_preview" xml:space="preserve">
+    <value>Vista anticipada</value>
+  </data>
+  <data name="lbl_uploadCSVChoise" xml:space="preserve">
+    <value>Seleccionar fichero CSV para importar</value>
+  </data>
+  <data name="lbl_uploadCSVSeparator" xml:space="preserve">
+    <value>Especifique carácter utilizado como separador en el fichero CSV</value>
+  </data>
+  <data name="lbl_importSDMXData" xml:space="preserve">
+    <value>Importación de datos SDMX</value>
+  </data>
+  <data name="lbl_importSDMXSchema" xml:space="preserve">
+    <value>Importación de estructuras SDMX</value>
+  </data>
+  <data name="lbl_connection_status" xml:space="preserve">
+    <value>Estado de la conexión</value>
+  </data>
+  <data name="lbl_reload" xml:space="preserve">
+    <value>Recargar</value>
+  </data>
+  <data name="lbl_headers" xml:space="preserve">
+    <value>columnas CSV</value>
+  </data>
+  <data name="lbl_opt_import_ignore" xml:space="preserve">
+    <value>Ignorar y saltar líneas con las mismas claves</value>
+  </data>
+  <data name="lbl_opt_import_override" xml:space="preserve">
+    <value>Sobrescribir los records con la misma clave</value>
+  </data>
+  <data name="lbl_add_file" xml:space="preserve">
+    <value>Agregar fichero</value>
+  </data>
+  <data name="lbl_upload" xml:space="preserve">
+    <value>Cargar</value>
+  </data>
+  <data name="lbl_upload_file_xml_schema" xml:space="preserve">
+    <value>Seleccionar un fichero de estructura SDMX</value>
+  </data>
+  <data name="lbl_welcome" xml:space="preserve">
+    <value>Bienvenido</value>
+  </data>
+  <data name="lbl_dsd_import" xml:space="preserve">
+    <value>Cargar un fichero de estructura SDMX</value>
+  </data>
+  <data name="lbl_import" xml:space="preserve">
+    <value>Cargar datos</value>
+  </data>
+  <data name="lbl_select_transcoding" xml:space="preserve">
+    <value>Seleccionar transcodificación</value>
+  </data>
+  <data name="lbl_char_change" xml:space="preserve">
+    <value>Carácter para ser reemplazado</value>
+  </data>
+  <data name="lbl_format_sample" xml:space="preserve">
+    <value>Ejemplo en el formato actual</value>
+  </data>
+  <data name="lbl_time_period" xml:space="preserve">
+    <value>Período de tiempo</value>
+  </data>
+  <data name="lbl_upload_file" xml:space="preserve">
+    <value>Seleccionar el fichero que desea importar</value>
+  </data>
+  <data name="msg_mapping_a_1" xml:space="preserve">
+    <value>Si ha seleccionado un fichero de datos XML, no se requiere un mapeo.</value>
+  </data>
+  <data name="lbl_opt_import_modality" xml:space="preserve">
+    <value>Seleccionar el modo de entrada</value>
+  </data>
+  <data name="lbl_opt_import_send_mail" xml:space="preserve">
+    <value>Email que recibirá el report</value>
+  </data>
+  <data name="lbl_ds_category" xml:space="preserve">
+    <value>Categoría</value>
+  </data>
+  <data name="lbl_first_row_column" xml:space="preserve">
+    <value>El primer record contiene los nombres de las columnas</value>
+  </data>
+  <data name="lbl_start_import" xml:space="preserve">
+    <value>Confirmar y empezar a importar</value>
+  </data>
+  <data name="lbl_report_continue" xml:space="preserve">
+    <value>Continuar</value>
+  </data>
+  <data name="lbl_report_finish" xml:space="preserve">
+    <value>Terminado</value>
+  </data>
+  <data name="lbl_btn_install" xml:space="preserve">
+    <value>Enstalar</value>
+  </data>
+  <data name="lbl_dsd_delete" xml:space="preserve">
+    <value>Eliminar DSD</value>
+  </data>
+  <data name="lbl_delete" xml:space="preserve">
+    <value>Eliminar</value>
+  </data>
+  <data name="lbl_password_change" xml:space="preserve">
+    <value>Cambiar Contraseña</value>
+  </data>
+  <data name="lbl_password_repeat" xml:space="preserve">
+    <value>Repetir la contraseña</value>
+  </data>
+  <data name="lbl_view" xml:space="preserve">
+    <value>Visualizar</value>
+  </data>
+  <data name="lbl_add" xml:space="preserve">
+    <value>Añadir</value>
+  </data>
+  <data name="lbl_new_user" xml:space="preserve">
+    <value>Nuevo Usuario</value>
+  </data>
+  <data name="lbl_prouser" xml:space="preserve">
+    <value>Autorización superiores</value>
+  </data>
+  <data name="lbl_domain" xml:space="preserve">
+    <value>Dominios</value>
+  </data>
+  <data name="lbl_install_required" xml:space="preserve">
+    <value>Se requiere la instalación</value>
+  </data>
+  <data name="msg_install_required" xml:space="preserve">
+    <value>UUna nueva instalación de los Archivos es requerida. Haga clic en el botón para hacer que se instalen automáticamente</value>
+  </data>
+  <data name="lbl_countRows" xml:space="preserve">
+    <value>Número total de los records</value>
+  </data>
+  <data name="lbl_set_domain" xml:space="preserve">
+    <value>Importer los Dominios</value>
+  </data>
+  <data name="lbl_report_count" xml:space="preserve">
+    <value>Nuevos records insertados</value>
+  </data>
+  <data name="lbl_report_email" xml:space="preserve">
+    <value>Un e-mail fue enviado a:</value>
+  </data>
+  <data name="lbl_report_error" xml:space="preserve">
+    <value>Los siguientes errores ocurrieron durante la inserción:</value>
+  </data>
+  <data name="lbl_report_mode" xml:space="preserve">
+    <value>Modo Insertar:</value>
+  </data>
+  <data name="lbl_report_user" xml:space="preserve">
+    <value>Operación realizada por:</value>
+  </data>
+  <data name="lbl_msg_alert_install" xml:space="preserve">
+    <value>Todos los datos se perderán, Continuar?</value>
+  </data>
+  <data name="lbl_loader_mail_to" xml:space="preserve">
+    <value>Enviar informe al correo electrónico</value>
+  </data>
+  <data name="lbl_loader_select_data" xml:space="preserve">
+    <value>Seleccionar la fuente de datos</value>
+  </data>
+  <data name="lbl_loader_select_mapping" xml:space="preserve">
+    <value>Selezionar mapeo</value>
+  </data>
+  <data name="lbl_loader_view_map" xml:space="preserve">
+    <value>Visualizar mapeo</value>
+  </data>
+  <data name="msg_loader_welcome" xml:space="preserve">
+    <value>Bienvenido nel la ventana para importar ficheros de datos.</value>
+  </data>
+  <data name="lbl_add_name" xml:space="preserve">
+    <value>Añadir nombre</value>
+  </data>
+  <data name="lbl_select_category" xml:space="preserve">
+    <value>Seleccionar una categoría</value>
+  </data>
+</root>

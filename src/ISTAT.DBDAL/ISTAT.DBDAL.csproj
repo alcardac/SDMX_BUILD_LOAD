@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1042ED00-72E5-4EE6-A910-525F77F0668B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ISTAT.DBDAL</RootNamespace>
+    <AssemblyName>ISTAT.DBDAL</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BulkUpload">
+      <HintPath>..\..\lib\3thPart\BulkUpload.dll</HintPath>
+    </Reference>
+    <Reference Include="Dapper">
+      <HintPath>..\..\lib\sdmx\Dapper.dll</HintPath>
+    </Reference>
+    <Reference Include="DataRetriever">
+      <HintPath>..\..\lib\sdmx\DataRetriever.dll</HintPath>
+    </Reference>
+    <Reference Include="Estat.Ma.Model">
+      <HintPath>..\..\lib\sdmx\Estat.Ma.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="Estat.Nsi.AuthModule">
+      <HintPath>..\..\lib\sdmx\Estat.Nsi.AuthModule.dll</HintPath>
+    </Reference>
+    <Reference Include="EstatSdmxSourceExtension">
+      <HintPath>..\..\lib\sdmx\EstatSdmxSourceExtension.dll</HintPath>
+    </Reference>
+    <Reference Include="EstatSdmxSourceExtension.CustomRequests">
+      <HintPath>..\..\lib\sdmx\EstatSdmxSourceExtension.CustomRequests.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.13.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\lib\sdmx\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="LumenWorks.Framework.IO">
+      <HintPath>..\..\lib\3thPart\LumenWorks.Framework.IO.dll</HintPath>
+    </Reference>
+    <Reference Include="MappingStore.Store">
+      <HintPath>..\..\lib\sdmx\MappingStore.Store.dll</HintPath>
+    </Reference>
+    <Reference Include="MappingStoreRetrieval">
+      <HintPath>..\..\lib\sdmx\MappingStoreRetrieval.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.ConnectionInfo, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Microsoft SQL Server\100\SDK\Assemblies\Microsoft.SqlServer.ConnectionInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Management.Sdk.Sfc, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Microsoft SQL Server\100\SDK\Assemblies\Microsoft.SqlServer.Management.Sdk.Sfc.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Smo, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Microsoft SQL Server\100\SDK\Assemblies\Microsoft.SqlServer.Smo.dll</HintPath>
+    </Reference>
+    <Reference Include="Org.Sdmx.Resources.SdmxMl.Schemas.V10">
+      <HintPath>..\..\lib\sdmx\Org.Sdmx.Resources.SdmxMl.Schemas.V10.dll</HintPath>
+    </Reference>
+    <Reference Include="Org.Sdmx.Resources.SdmxMl.Schemas.V20">
+      <HintPath>..\..\lib\sdmx\Org.Sdmx.Resources.SdmxMl.Schemas.V20.dll</HintPath>
+    </Reference>
+    <Reference Include="Org.Sdmx.Resources.SdmxMl.Schemas.V21">
+      <HintPath>..\..\lib\sdmx\Org.Sdmx.Resources.SdmxMl.Schemas.V21.dll</HintPath>
+    </Reference>
+    <Reference Include="SdmxApi">
+      <HintPath>..\..\lib\sdmx\SdmxApi.dll</HintPath>
+    </Reference>
+    <Reference Include="SdmxDataParser">
+      <HintPath>..\..\lib\sdmx\SdmxDataParser.dll</HintPath>
+    </Reference>
+    <Reference Include="SdmxEdiParser">
+      <HintPath>..\..\lib\sdmx\SdmxEdiParser.dll</HintPath>
+    </Reference>
+    <Reference Include="SdmxObjects">
+      <HintPath>..\..\lib\sdmx\SdmxObjects.dll</HintPath>
+    </Reference>
+    <Reference Include="SdmxParseBase">
+      <HintPath>..\..\lib\sdmx\SdmxParseBase.dll</HintPath>
+    </Reference>
+    <Reference Include="SdmxQueryBuilder">
+      <HintPath>..\..\lib\sdmx\SdmxQueryBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="SdmxSourceUtil">
+      <HintPath>..\..\lib\sdmx\SdmxSourceUtil.dll</HintPath>
+    </Reference>
+    <Reference Include="SdmxStructureMutableParser">
+      <HintPath>..\..\lib\sdmx\SdmxStructureMutableParser.dll</HintPath>
+    </Reference>
+    <Reference Include="SdmxStructureParser">
+      <HintPath>..\..\lib\sdmx\SdmxStructureParser.dll</HintPath>
+    </Reference>
+    <Reference Include="SdmxStructureRetrieval">
+      <HintPath>..\..\lib\sdmx\SdmxStructureRetrieval.dll</HintPath>
+    </Reference>
+    <Reference Include="SdmxXmlConstants">
+      <HintPath>..\..\lib\sdmx\SdmxXmlConstants.dll</HintPath>
+    </Reference>
+    <Reference Include="StructureRetriever, Version=3.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\lib\sdmx\StructureRetriever.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TabularWriters">
+      <HintPath>..\..\lib\sdmx\TabularWriters.dll</HintPath>
+    </Reference>
+    <Reference Include="Xml.Schema.Linq, Version=0.3.0.0, Culture=neutral, PublicKeyToken=47d0c84d0ebb13e5, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\lib\sdmx\Xml.Schema.Linq.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataAccess.cs" />
+    <Compile Include="DataSDMX.cs" />
+    <Compile Include="DataWrapper.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\ISTAT.ENTITY\ISTAT.ENTITY.csproj">
+      <Project>{3DFAC114-1938-48DB-BA2F-EDE2D053E52A}</Project>
+      <Name>ISTAT.ENTITY</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
